@@ -1,4 +1,5 @@
 <?php
+// Uploads the file to the specific location for this test site
 $upload_dir = "CapstoneImages/";
 $img = $_POST['hidden_data'];
 $img = str_replace('data:image/png;base64,', '', $img);
